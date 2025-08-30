@@ -30,4 +30,9 @@ server.use(
 
 const handler = handle(build, server);
 
-serve({ fetch: handler.fetch, port: 3000 });
+// Allow configuring the server port via environment variables to avoid conflicts
+// when running alongside other apps (e.g., openpage-api on 3000).
+const envPort = process.env.REMIX_PORT ?? process.env.PORT;
+const port = envPort ? Number(envPort) : 3001;
+
+serve({ fetch: handler.fetch, port });
