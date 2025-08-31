@@ -67,7 +67,8 @@ export class MailChannelsTransport implements Transport<SentMessageInfo> {
     };
 
     if (this._options.apiKey) {
-      requestHeaders['X-Auth-Token'] = this._options.apiKey;
+      // Use the API key header expected by MailChannels HTTP API
+      requestHeaders['X-Api-Key'] = this._options.apiKey;
     }
 
     fetch(this._options.endpoint, {
