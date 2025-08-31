@@ -45,11 +45,11 @@ msgstr "\"{documentTitle}\" は正常に削除されました"
 
 #: apps/remix/app/components/forms/document-preferences-form.tsx
 msgid "\"{placeholderEmail}\" on behalf of \"Team Name\" has invited you to sign \"example document\"."
-msgstr "\"{placeholderEmail}\" が \"Team Name\" を代表してあなたを \"example document\" の署名に招待しました。"
+msgstr "\"Team Name\"の\"{placeholderEmail}\"が\"example document\"への署名を依頼しています。"
 
 #: apps/remix/app/components/forms/document-preferences-form.tsx
 msgid "\"Team Name\" has invited you to sign \"example document\"."
-msgstr "\"Team Name\" があなたを \"example document\" の署名に招待しました。"
+msgstr "\"Team Name\" があなたを \"example document\" への署名を依頼しています。"
 
 #: apps/remix/app/components/general/document-signing/document-signing-form.tsx
 #: apps/remix/app/components/embed/embed-document-signing-page.tsx
@@ -485,7 +485,7 @@ msgstr "<0><1>\"{documentTitle}\"の承認を完了しようとしています</
 
 #: apps/remix/app/components/general/document-signing/document-signing-complete-dialog.tsx
 msgid "<0>You are about to complete signing \"<1>{documentTitle}</1>\".</0><2/> Are you sure?"
-msgstr "<0>\"<1>{documentTitle}</1>\"の署名を完了しようとしています。</0><2/> よろしいですか?"
+msgstr "<0>\"<1>{documentTitle}</1>\"に署名しようとしています。</0><2/> よろしいですか?"
 
 #: apps/remix/app/components/general/document-signing/document-signing-complete-dialog.tsx
 #: apps/remix/app/components/general/document-signing/document-signing-complete-dialog.tsx
@@ -1081,7 +1081,7 @@ msgstr "文書受信者がこのメールアドレスに直接返信できるよ
 #: packages/ui/primitives/template-flow/add-template-placeholder-recipients.tsx
 #: packages/ui/primitives/document-flow/add-signers.tsx
 msgid "Allow signers to dictate next signer"
-msgstr "署名者が次の署名者を指定できるようにする"
+msgstr "署名者が次に署名する人を指定できるようにする"
 
 #: apps/remix/app/components/embed/authoring/configure-document-advanced-settings.tsx
 #: packages/ui/primitives/template-flow/add-template-settings.tsx
@@ -1686,11 +1686,11 @@ msgstr "2FAを有効にすることで、メールパスワードでサインイ
 
 #: apps/remix/app/routes/_unauthenticated+/articles.signature-disclosure.tsx
 msgid "By proceeding to use the electronic signature service provided by Documenso, you affirm that you have read and understood this disclosure. You agree to all terms and conditions related to the use of electronic signatures and electronic transactions as outlined herein."
-msgstr "Documensoが提供する電子署名サービスを使用することで、あなたはこの開示を読み、理解したことを確認します。ここに概説された電子署名および電子取引の使用に関連するすべての利用規約に同意します。"
+msgstr "一般社団法人(いだてんクリニック）が提供する電子署名サービスを使用することで、あなたはこの開示を読み、理解したことを確認します。ここに概説された電子署名および電子取引の使用に関連するすべての利用規約に同意します。"
 
 #: apps/remix/app/components/general/document-signing/document-signing-disclosure.tsx
 msgid "By proceeding with your electronic signature, you acknowledge and consent that it will be used to sign the given document and holds the same legal validity as a handwritten signature. By completing the electronic signing process, you affirm your understanding and acceptance of these conditions."
-msgstr "電子署名を進めることで、指定された文書の署名に使用され、手書き署名と同じ法的有効性を持つことを確認し、同意します。電子署名プロセスを完了することで、これらの条件を理解し、受け入れることを確認します。"
+msgstr "電子署名を進めることで、自身がこの文書に署名する法的地位があることを宣誓するとともに、手書き署名と同じ法的有効性を持つことを確認し、同意します。この文書の署名は自身の意思によって行われ、質問する機会が与えられたことを確認しました。電子署名プロセスを完了することで、これらの条件を理解し、受け入れることを確認します。"
 
 #: apps/remix/app/components/forms/signup.tsx
 msgid "By proceeding, you agree to our <0>Terms of Service</0> and <1>Privacy Policy</1>."
@@ -1702,7 +1702,7 @@ msgstr "電子署名機能を使用することで、電子的に取引を実行
 
 #: packages/ui/components/recipient/recipient-role-select.tsx
 msgid "Can prepare"
-msgstr "準備可能"
+msgstr "文書の準備"
 
 #: apps/remix/app/components/tables/settings-security-passkey-table-actions.tsx
 #: apps/remix/app/components/tables/settings-security-passkey-table-actions.tsx
@@ -1910,7 +1910,7 @@ msgstr "受信者へ送信する署名リンクをコピーするにはクリッ
 #: apps/remix/app/components/embed/embed-direct-template-client-page.tsx
 #: apps/remix/app/components/embed/multisign/multi-sign-document-signing-view.tsx
 msgid "Click to insert field"
-msgstr "フィールドを挿入するにはクリック"
+msgstr "クリックして挿入"
 
 #: apps/remix/app/components/general/billing-plans.tsx
 #: apps/remix/app/components/general/document-signing/document-signing-auth-passkey.tsx
@@ -2125,7 +2125,7 @@ msgstr "コンテンツ"
 #: apps/remix/app/components/dialogs/assistant-confirmation-dialog.tsx
 #: packages/ui/primitives/document-flow/document-flow-root.tsx
 msgid "Continue"
-msgstr "継続"
+msgstr "次へ"
 
 #: packages/email/template-components/template-document-invite.tsx
 msgid "Continue by approving the document."
@@ -2141,7 +2141,7 @@ msgstr "文書をダウンロードして継続します。"
 
 #: packages/email/template-components/template-document-invite.tsx
 msgid "Continue by signing the document."
-msgstr "文書に署名して継続します。"
+msgstr "文書に署名してください。"
 
 #: packages/email/template-components/template-document-invite.tsx
 msgid "Continue by viewing the document."
@@ -2428,7 +2428,7 @@ msgstr "アカウントを作成し、最新の文書署名を始めましょう
 #: apps/remix/app/components/general/document/document-page-view-information.tsx
 #: apps/remix/app/components/dialogs/public-profile-template-manage-dialog.tsx
 msgid "Created"
-msgstr "作成済み"
+msgstr "作成日時"
 
 #: apps/remix/app/routes/_internal+/[__htmltopdf]+/audit-log.tsx
 #: apps/remix/app/components/tables/user-organisations-table.tsx
@@ -3305,7 +3305,7 @@ msgstr "電子文書の配信"
 
 #: apps/remix/app/routes/_unauthenticated+/articles.signature-disclosure.tsx
 msgid "Electronic Signature Disclosure"
-msgstr "電子署名開示"
+msgstr "電子署名に関する免責事項"
 
 #: apps/remix/app/routes/_internal+/[__htmltopdf]+/certificate.tsx
 #: apps/remix/app/routes/_internal+/[__htmltopdf]+/certificate.tsx
@@ -3494,7 +3494,7 @@ msgstr "直接リンク署名を有効化"
 #: packages/ui/primitives/template-flow/add-template-placeholder-recipients.tsx
 #: packages/ui/primitives/document-flow/add-signers.tsx
 msgid "Enable signing order"
-msgstr "署名順序を有効化"
+msgstr "署名する順番を指定する"
 
 #: apps/remix/app/routes/_authenticated+/t.$teamUrl+/settings.webhooks._index.tsx
 #: apps/remix/app/routes/_authenticated+/t.$teamUrl+/settings.webhooks.$id.tsx
@@ -3842,7 +3842,7 @@ msgstr "フォントサイズ"
 
 #: apps/remix/app/routes/_unauthenticated+/articles.signature-disclosure.tsx
 msgid "For any questions regarding this disclosure, electronic signatures, or any related process, please contact us at: <0>{SUPPORT_EMAIL}</0>"
-msgstr "この開示、電子署名、または関連プロセスに関するご質問は、<0>{SUPPORT_EMAIL}</0>までお問い合わせください。"
+msgstr "この開示、電子署名、または関連プロセスに関するご質問は、legal@idaten.clinicまでお問い合わせください。"
 
 #: apps/remix/app/components/dialogs/template-bulk-send-dialog.tsx
 msgid "For each recipient, provide their email (required) and name (optional) in separate columns. Download the template CSV below for the correct format."
@@ -4952,22 +4952,22 @@ msgstr "許可されるチーム数。0 = 無制限"
 #. placeholder {0}: document.team?.name
 #: apps/remix/app/components/general/document-signing/document-signing-page-view.tsx
 msgid "on behalf of \"{0}\" has invited you to approve this document"
-msgstr "\"{0}\"の代理で、あなたをこの文書の承認に招待しました"
+msgstr "\"{0}\"が文書の承認を依頼しています"
 
 #. placeholder {0}: document.team?.name
 #: apps/remix/app/components/general/document-signing/document-signing-page-view.tsx
 msgid "on behalf of \"{0}\" has invited you to assist this document"
-msgstr "\"{0}\"の代理で、あなたをこの文書のサポートに招待しました"
+msgstr "\"{0}\"が文書作成の依頼をしています"
 
 #. placeholder {0}: document.team?.name
 #: apps/remix/app/components/general/document-signing/document-signing-page-view.tsx
 msgid "on behalf of \"{0}\" has invited you to sign this document"
-msgstr "\"{0}\"の代理で、あなたをこの文書の署名に招待しました"
+msgstr "\"{0}\"が文書の署名を依頼しています"
 
 #. placeholder {0}: document.team?.name
 #: apps/remix/app/components/general/document-signing/document-signing-page-view.tsx
 msgid "on behalf of \"{0}\" has invited you to view this document"
-msgstr "\"{0}\"の代理で、あなたをこの文書の閲覧に招待しました"
+msgstr "\"{0}\"が文書の閲覧を依頼しています"
 
 #: apps/remix/app/components/dialogs/webhook-create-dialog.tsx
 msgid "On this page, you can create a new webhook."
@@ -5589,7 +5589,7 @@ msgstr "Documensoを始めるためのドキュメントをお読みください
 
 #: apps/remix/app/components/general/document-signing/document-signing-disclosure.tsx
 msgid "Read the full <0>signature disclosure</0>."
-msgstr "完全な<0>署名開示</0>をお読みください。"
+msgstr "<0>法的免責事項</0>の全文をお読みください。"
 
 #: apps/remix/app/components/general/document/document-page-view-recipients.tsx
 msgid "Ready"
@@ -5719,7 +5719,7 @@ msgstr "登録成功"
 #: apps/remix/app/components/general/document-signing/document-signing-reject-dialog.tsx
 #: packages/email/template-components/template-document-invite.tsx
 msgid "Reject Document"
-msgstr "文書を拒否"
+msgstr "署名を拒否"
 
 #: apps/remix/app/routes/_internal+/[__htmltopdf]+/certificate.tsx
 #: apps/remix/app/components/general/stack-avatars-with-tooltip.tsx
@@ -7058,7 +7058,7 @@ msgstr "署名プロセスを完了していただき、ありがとうござい
 
 #: apps/remix/app/routes/_unauthenticated+/articles.signature-disclosure.tsx
 msgid "Thank you for using Documenso to perform your electronic document signing. The purpose of this disclosure is to inform you about the process, legality, and your rights regarding the use of electronic signatures on our platform. By opting to use an electronic signature, you are agreeing to the terms and conditions outlined below."
-msgstr "Documensoを使用して電子文書署名を実行していただき、ありがとうございます。この開示の目的は、当プラットフォームでの電子署名の使用に関するプロセス、合法性、およびあなたの権利について情報を提供することです。電子署名の使用を選択することで、以下に概説された利用規約に同意したことになります。"
+msgstr "一般社団法人天照会（いだてんクリニック）が提供するシステム使用して電子文書署名を実行していただき、ありがとうございます。この開示の目的は、当プラットフォームでの電子署名の使用に関するプロセス、合法性、およびあなたの権利について情報を提供することです。電子署名の使用を選択することで、以下に記載された利用規約に同意したことになります。"
 
 #: packages/email/template-components/template-forgot-password.tsx
 msgid "That's okay, it happens! Click the button below to reset your password."
@@ -7506,7 +7506,7 @@ msgstr "この文書は直接リンクを使用して作成されました。"
 
 #: packages/email/template-components/template-footer.tsx
 msgid "This document was sent using <0>Documenso.</0>"
-msgstr "この文書は<0>Documenso</0>を使用して送信されました。"
+msgstr "このメールは一般社団法人天照会 いだてんクリニックから送信されました。このメール(添付ファイル等を含みます)に記載される情報は、秘密、または法的に保護された権利の対象となり得る場合があり、特定の受信者による利用のみを意図しています。もし、意図された受信者ではない場合には、お手元にあるメールを削除・破棄していただくとともに、このメッセージの全部または一部を、開示、複写、複製、配布されないようにお願いします。"
 
 #: packages/email/template-components/template-document-rejection-confirmed.tsx
 msgid "This email confirms that you have rejected the document <0>\"{documentName}\"</0> sent by {documentOwnerName}."
@@ -8116,7 +8116,7 @@ msgstr "カスタム文書をアップロード"
 #: apps/remix/app/components/embed/authoring/configure-document-upload.tsx
 #: packages/ui/primitives/document-upload.tsx
 msgid "Upload Document"
-msgstr "文書をアップロード"
+msgstr "アップロード"
 
 #: packages/ui/primitives/signature-pad/signature-pad-upload.tsx
 msgid "Upload Signature"
@@ -8807,7 +8807,7 @@ msgstr "文書に署名するとき、既に提供された情報を使用して
 
 #: apps/remix/app/routes/_unauthenticated+/articles.signature-disclosure.tsx
 msgid "When you use our platform to affix your electronic signature to documents, you are consenting to do so under the Electronic Signatures in Global and National Commerce Act (E-Sign Act) and other applicable laws. This action indicates your agreement to use electronic means to sign documents and receive notifications."
-msgstr "当プラットフォームを使用して文書に電子署名を行うとき、電子署名に関する国内及び国際商取引法（E-Sign法）およびその他の適用可能な法律の下で同意していることになります。このアクションは、電子手段を使用して文書に署名し、通知を受け取ることに合意したことを示します。"
+msgstr "当システムを使用して文書に電子署名を行うとき、電子署名に関する国内及び国際商取引法（電子署名及び認証業務に関する法律）およびその他の適用可能な法律の下で同意していることになります。このアクションは、電子手段を使用して文書に署名し、通知を受け取ることに合意したことを示します。"
 
 #: apps/remix/app/routes/_profile+/p.$url.tsx
 msgid "While waiting for them to do so you can create your own Documenso account and get started with document signing right away."
@@ -9197,7 +9197,7 @@ msgstr "アクセスを正常に削除しました。"
 
 #: apps/remix/app/routes/_unauthenticated+/articles.signature-disclosure.tsx
 msgid "You have the right to withdraw your consent to use electronic signatures at any time before completing the signing process. To withdraw your consent, please contact the sender of the document. In failing to contact the sender you may reach out to <0>{SUPPORT_EMAIL}</0> for assistance. Be aware that withdrawing consent may delay or halt the completion of the related transaction or service."
-msgstr "署名プロセスを完了する前に、いつでも電子署名の使用に対する同意を撤回する権利があります。同意を撤回するには、文書の送信者にお問い合わせください。送信者に連絡できない場合は、<0>{SUPPORT_EMAIL}</0>にお問い合わせください。同意の撤回は関連する取引やサービスの完了を遅らせたり中断したりする可能性があることにご注意ください。"
+msgstr "署名プロセスを完了する前に、いつでも電子署名の使用に対する同意を撤回する権利があります。同意を撤回するには、文書の送信者にお問い合わせください。送信者に連絡できない場合は、legal@idaten.clinicにお問い合わせください。同意の撤回は関連する取引やサービスの完了を遅らせたり中断したりする可能性があることにご注意ください。"
 
 #: apps/remix/app/components/dialogs/team-member-update-dialog.tsx
 msgid "You have updated {memberName}."
