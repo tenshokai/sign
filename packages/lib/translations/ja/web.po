@@ -130,12 +130,12 @@ msgstr "{0} 直接署名テンプレート"
 #. placeholder {1}: document.title
 #: packages/lib/jobs/definitions/emails/send-signing-email.handler.ts
 msgid "{0} has invited you to {recipientActionVerb} the document \"{1}\"."
-msgstr "{0} があなたを文書 \"{1}\" の{recipientActionVerb}に招待しました。"
+msgstr "{0}が{1}への{recipientActionVerb}を依頼しています。"
 
 #. placeholder {0}: team.name
 #: packages/lib/jobs/definitions/emails/send-signing-email.handler.ts
 msgid "{0} invited you to {recipientActionVerb} a document"
-msgstr "{0} があなたを文書の{recipientActionVerb}に招待しました"
+msgstr "{0}が文書の{recipientActionVerb}を依頼しています"
 
 #. placeholder {0}: remaining.documents
 #. placeholder {1}: quota.documents
@@ -344,15 +344,15 @@ msgstr "{recipientReference}が文書の署名を完了しました。"
 #. placeholder {0}: document.title
 #: packages/lib/jobs/definitions/emails/send-recipient-signed-email.handler.ts
 msgid "{recipientReference} has signed \"{0}\""
-msgstr "{recipientReference}が\"{0}\"に署名しました"
+msgstr "{recipientReference}さんが\"{0}\"に署名しました"
 
 #: packages/email/template-components/template-document-recipient-signed.tsx
 msgid "{recipientReference} has signed \"{documentName}\""
-msgstr "{recipientReference}が\"{documentName}\"に署名しました"
+msgstr "{recipientReference}さんが\"{documentName}\"に署名しました"
 
 #: packages/email/templates/document-recipient-signed.tsx
 msgid "{recipientReference} has signed {documentName}"
-msgstr "{recipientReference}が{documentName}に署名しました"
+msgstr "{recipientReference}さんが{documentName}に署名しました"
 
 #: apps/remix/app/components/forms/public-profile-form.tsx
 #: apps/remix/app/components/dialogs/public-profile-template-manage-dialog.tsx
@@ -1690,7 +1690,7 @@ msgstr "一般社団法人(いだてんクリニック）が提供する電子�
 
 #: apps/remix/app/components/general/document-signing/document-signing-disclosure.tsx
 msgid "By proceeding with your electronic signature, you acknowledge and consent that it will be used to sign the given document and holds the same legal validity as a handwritten signature. By completing the electronic signing process, you affirm your understanding and acceptance of these conditions."
-msgstr "電子署名を進めることで、自身がこの文書に署名する法的地位があることを宣誓するとともに、手書き署名と同じ法的有効性を持つことを確認し、同意します。この文書の署名は自身の意思によって行われ、質問する機会が与えられたことを確認しました。電子署名プロセスを完了することで、これらの条件を理解し、受け入れることを確認します。"
+msgstr "電子署名を進めることで、自身がこの文書に署名する法的地位があることを宣誓するとともに、手書き署名と同じ法的有効性を持つことを確認し、同意します。記入した入力は、私が知り信じる限り、真実であり正確です。この文書の署名は自身の意思によって行われ、質問する機会が与えられたことを確認しました。"
 
 #: apps/remix/app/components/forms/signup.tsx
 msgid "By proceeding, you agree to our <0>Terms of Service</0> and <1>Privacy Policy</1>."
@@ -2137,7 +2137,7 @@ msgstr "文書のサポートで継続します。"
 
 #: packages/email/template-components/template-document-completed.tsx
 msgid "Continue by downloading the document."
-msgstr "文書をダウンロードして継続します。"
+msgstr "署名した文書はダウンロードできます"
 
 #: packages/email/template-components/template-document-invite.tsx
 msgid "Continue by signing the document."
@@ -6480,7 +6480,7 @@ msgstr "監査技術提供"
 #: packages/lib/server-only/document/send-completed-email.ts
 #: packages/lib/server-only/document/send-completed-email.ts
 msgid "Signing Complete!"
-msgstr "署名完了！"
+msgstr "【いだてんクリニック/電子署名】全ての署名が完了しました"
 
 #: apps/remix/app/components/embed/embed-document-signing-page.tsx
 msgid "Signing for"
@@ -7506,7 +7506,7 @@ msgstr "この文書は直接リンクを使用して作成されました。"
 
 #: packages/email/template-components/template-footer.tsx
 msgid "This document was sent using <0>Documenso.</0>"
-msgstr "このメールは一般社団法人天照会 いだてんクリニックから送信されました。このメール(添付ファイル等を含みます)に記載される情報は、秘密、または法的に保護された権利の対象となり得る場合があり、特定の受信者による利用のみを意図しています。もし、意図された受信者ではない場合には、お手元にあるメールを削除・破棄していただくとともに、このメッセージの全部または一部を、開示、複写、複製、配布されないようにお願いします。"
+msgstr "一般社団法人天照会 いだてんクリニック"
 
 #: packages/email/template-components/template-document-rejection-confirmed.tsx
 msgid "This email confirms that you have rejected the document <0>\"{documentName}\"</0> sent by {documentOwnerName}."
@@ -9254,7 +9254,7 @@ msgstr "今後サインイン時に認証アプリからのコード入力が必
 
 #: apps/remix/app/routes/_recipient+/sign.$token+/complete.tsx
 msgid "You will receive an Email copy of the signed document once everyone has signed."
-msgstr "全員の署名が完了したら、署名済"
+msgstr "全員の署名が完了すると通知されます"
 
 #: apps/remix/app/components/dialogs/account-delete-dialog.tsx
 msgid "Your account has been deleted successfully."
