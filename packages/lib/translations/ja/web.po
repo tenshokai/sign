@@ -155,17 +155,17 @@ msgstr "{1}行中{0}行選択中。"
 #. placeholder {2}: document.title
 #: packages/lib/server-only/document/resend-document.ts
 msgid "{0} on behalf of \"{1}\" has invited you to {recipientActionVerb} the document \"{2}\"."
-msgstr "{0}が\"{1}\"を代表して、文書\"{2}\"を{recipientActionVerb}するよう招待しました。"
+msgstr "{0}が\"{1}\"を代理して、文書\"{2}\"を{recipientActionVerb}するよう招待しました。"
 
 #. placeholder {0}: recipients.length
 #: apps/remix/app/routes/_authenticated+/t.$teamUrl+/documents.$id._index.tsx
 msgid "{0} Recipient(s)"
-msgstr "{0} 受信者"
+msgstr "{0}人の受信者"
 
 #. placeholder {0}: organisation.name
 #: apps/remix/app/routes/_authenticated+/o.$orgUrl._index.tsx
 msgid "{0} Teams"
-msgstr "{0} チーム"
+msgstr "{0}つのチーム"
 
 #: apps/remix/app/components/tables/internal-audit-log-table.tsx
 msgid "{browserInfo} on {os}"
@@ -212,110 +212,110 @@ msgstr "{inviterName}があなたを文書<0/>\"{documentName}\"から削除し�
 #. placeholder {1}: document.title
 #: packages/lib/jobs/definitions/emails/send-signing-email.handler.ts
 msgid "{inviterName} on behalf of \"{0}\" has invited you to {recipientActionVerb} the document \"{1}\"."
-msgstr "{inviterName}が\"{0}\"を代表して、文書\"{1}\"を{recipientActionVerb}するよう招待しました。"
+msgstr "{inviterName}が{0}を代理して、{1}への{recipientActionVerb}を依頼しています"
 
 #. placeholder {0}: _(actionVerb).toLowerCase()
 #: packages/email/template-components/template-document-invite.tsx
 msgid "{inviterName} on behalf of \"{teamName}\" has invited you to {0}<0/>\"{documentName}\""
-msgstr "{inviterName}が\"{teamName}\"を代表して、あなたを{0}<0/>\"{documentName}\"に招待しました"
+msgstr "{inviterName}が{teamName}を代理して、{documentName}への{0}<0/>を依頼しています"
 
 #: packages/email/templates/document-invite.tsx
 msgid "{inviterName} on behalf of \"{teamName}\" has invited you to {action} {documentName}"
-msgstr "{inviterName}が\"{teamName}\"を代表して、あなたを{documentName}を{action}するよう招待しました"
+msgstr "{inviterName}が{teamName}を代理して、{documentName}への{action}を依頼しています"
 
 #: packages/lib/utils/document-audit-logs.ts
 msgid "{prefix} added a field"
-msgstr "{prefix} フィールドを追加しました"
+msgstr "{prefix}がフィールドを追加しました"
 
 #: packages/lib/utils/document-audit-logs.ts
 msgid "{prefix} added a recipient"
-msgstr "{prefix} 受信者を追加しました"
+msgstr "{prefix}が受信者を追加しました"
 
 #: packages/lib/utils/document-audit-logs.ts
 msgid "{prefix} created the document"
-msgstr "{prefix} 文書を作成しました"
+msgstr "{prefix}が文書を作成しました"
 
 #: packages/lib/utils/document-audit-logs.ts
 msgid "{prefix} deleted the document"
-msgstr "{prefix} 文書を削除しました"
+msgstr "{prefix}が文書を削除しました"
 
 #: packages/lib/utils/document-audit-logs.ts
 msgid "{prefix} moved the document to team"
-msgstr "{prefix} 文書をチームに移動しました"
+msgstr "{prefix}が文書をチームに移動しました"
 
 #: packages/lib/utils/document-audit-logs.ts
 msgid "{prefix} opened the document"
-msgstr "{prefix} 文書を開きました"
+msgstr "{prefix}が文書を開きました"
 
 #: packages/lib/utils/document-audit-logs.ts
 msgid "{prefix} prefilled a field"
-msgstr "{prefix} フィールドを事前入力しました"
+msgstr "{prefix}がフィールドを事前入力しました"
 
 #: packages/lib/utils/document-audit-logs.ts
 msgid "{prefix} removed a field"
-msgstr "{prefix} フィールドを削除しました"
+msgstr "{prefix}がフィールドを削除しました"
 
 #: packages/lib/utils/document-audit-logs.ts
 msgid "{prefix} removed a recipient"
-msgstr "{prefix} 受信者を削除しました"
+msgstr "{prefix}が受信者を削除しました"
 
 #. placeholder {0}: data.recipientEmail
 #: packages/lib/utils/document-audit-logs.ts
 msgid "{prefix} resent an email to {0}"
-msgstr "{prefix} {0}にメールを再送信しました"
+msgstr "{prefix}が{0}にメールを再送信しました"
 
 #. placeholder {0}: data.recipientEmail
 #: packages/lib/utils/document-audit-logs.ts
 msgid "{prefix} sent an email to {0}"
-msgstr "{prefix} {0}にメールを送信しました"
+msgstr "{prefix}が{0}にメールを送信しました"
 
 #: packages/lib/utils/document-audit-logs.ts
 msgid "{prefix} sent the document"
-msgstr "{prefix} 文書を送信しました"
+msgstr "{prefix}が文書を送信しました"
 
 #: packages/lib/utils/document-audit-logs.ts
 msgid "{prefix} signed a field"
-msgstr "{prefix} フィールドに署名しました"
+msgstr "{prefix}が署名しました"
 
 #: packages/lib/utils/document-audit-logs.ts
 msgid "{prefix} unsigned a field"
-msgstr "{prefix} フィールドの署名を解除しました"
+msgstr "{prefix}がフィールドの署名を解除しました"
 
 #: packages/lib/utils/document-audit-logs.ts
 msgid "{prefix} updated a field"
-msgstr "{prefix} フィールドを更新しました"
+msgstr "{prefix}がフィールドを更新しました"
 
 #: packages/lib/utils/document-audit-logs.ts
 msgid "{prefix} updated a recipient"
-msgstr "{prefix} 受信者を更新しました"
+msgstr "{prefix}が受信者を更新しました"
 
 #: packages/lib/utils/document-audit-logs.ts
 msgid "{prefix} updated the document"
-msgstr "{prefix} 文書を更新しました"
+msgstr "{prefix}が文書を更新しました"
 
 #: packages/lib/utils/document-audit-logs.ts
 msgid "{prefix} updated the document access auth requirements"
-msgstr "{prefix} 文書アクセス認証要件を更新しました"
+msgstr "{prefix}が文書アクセスのための認証要件を更新しました"
 
 #: packages/lib/utils/document-audit-logs.ts
 msgid "{prefix} updated the document external ID"
-msgstr "{prefix} 文書外部IDを更新しました"
+msgstr "{prefix}が文書外部IDを更新しました"
 
 #: packages/lib/utils/document-audit-logs.ts
 msgid "{prefix} updated the document signing auth requirements"
-msgstr "{prefix} 文書署名認証要件を更新しました"
+msgstr "{prefix}が署名のための本人確認条件を更新しました"
 
 #: packages/lib/utils/document-audit-logs.ts
 msgid "{prefix} updated the document title"
-msgstr "{prefix} 文書タイトルを更新しました"
+msgstr "{prefix}が文書タイトルを更新しました"
 
 #: packages/lib/utils/document-audit-logs.ts
 msgid "{prefix} updated the document visibility"
-msgstr "{prefix} 文書の可視性を更新しました"
+msgstr "{prefix}が文書の閲覧権限を更新しました"
 
 #: packages/lib/utils/document-audit-logs.ts
 msgid "{prefix} viewed the document"
-msgstr "{prefix} 文書を閲覧しました"
+msgstr "{prefix}が文書を閲覧しました"
 
 #: apps/remix/app/components/general/direct-template/direct-template-page.tsx
 msgid "{recipientActionVerb} document"
@@ -1686,7 +1686,7 @@ msgstr "2FAを有効にすることで、メールパスワードでサインイ
 
 #: apps/remix/app/routes/_unauthenticated+/articles.signature-disclosure.tsx
 msgid "By proceeding to use the electronic signature service provided by Documenso, you affirm that you have read and understood this disclosure. You agree to all terms and conditions related to the use of electronic signatures and electronic transactions as outlined herein."
-msgstr "一般社団法人(いだてんクリニック）が提供する電子署名サービスを使用することで、あなたはこの開示を読み、理解したことを確認します。ここに概説された電子署名および電子取引の使用に関連するすべての利用規約に同意します。"
+msgstr "一般社団法人(いだてんクリニック）が提供する電子署名サービスを使用することで、あなたはこの免責事項を読み、理解したことを確認します。ここに記載された電子署名および電子取引の使用に関連するすべての利用規約に同意します。"
 
 #: apps/remix/app/components/general/document-signing/document-signing-disclosure.tsx
 msgid "By proceeding with your electronic signature, you acknowledge and consent that it will be used to sign the given document and holds the same legal validity as a handwritten signature. By completing the electronic signing process, you affirm your understanding and acceptance of these conditions."
@@ -1694,11 +1694,11 @@ msgstr "電子署名を進めることで、自身がこの文書に署名する
 
 #: apps/remix/app/components/forms/signup.tsx
 msgid "By proceeding, you agree to our <0>Terms of Service</0> and <1>Privacy Policy</1>."
-msgstr "続行することで、当社の<0>利用規約</0>および<1>プライバシーポリシー</1>に同意します。"
+msgstr "続行することで、当法人の<0>利用規約</0>および<1>プライバシーポリシー</1>に同意します。"
 
 #: apps/remix/app/routes/_unauthenticated+/articles.signature-disclosure.tsx
 msgid "By using the electronic signature feature, you are consenting to conduct transactions and receive disclosures electronically. You acknowledge that your electronic signature on documents is binding and that you accept the terms outlined in the documents you are signing."
-msgstr "電子署名機能を使用することで、電子的に取引を実行し、開示を受け取ることに同意します。文書上のあなたの電子署名に拘束力があり、署名する文書に概説された条件を受け入れることを確認します。"
+msgstr "電子署名機能を使用することで、電子的に取引を実行し、開示を受け取ることに同意します。文書上のあなたの電子署名に拘束力があり、署名する文書に説明された条件を受け入れることを確認します。"
 
 #: packages/ui/components/recipient/recipient-role-select.tsx
 msgid "Can prepare"
@@ -2698,7 +2698,7 @@ msgstr "アカウントを削除中..."
 
 #: apps/remix/app/routes/_internal+/[__htmltopdf]+/certificate.tsx
 msgid "Details"
-msgstr "詳細"
+msgstr "タイムスタンプ"
 
 #: apps/remix/app/routes/_internal+/[__htmltopdf]+/certificate.tsx
 #: apps/remix/app/routes/_authenticated+/settings+/security.sessions.tsx
@@ -2897,7 +2897,7 @@ msgstr "文書キャンセル"
 #: packages/lib/utils/document-audit-logs.ts
 msgctxt "Audit log format"
 msgid "Document completed"
-msgstr "文書完了"
+msgstr "完了"
 
 #: apps/remix/app/components/general/document/document-status.tsx
 msgid "Document completed"
@@ -3029,7 +3029,7 @@ msgstr "文書を開きました"
 
 #: apps/remix/app/components/general/document/document-status.tsx
 msgid "Document pending"
-msgstr "文書保留中"
+msgstr "進行中"
 
 #: packages/ui/components/document/document-email-checkboxes.tsx
 msgid "Document pending email"
@@ -4150,11 +4150,11 @@ msgstr "認証アプリがQRコードに対応していない場合は、代わ�
 #: apps/remix/app/components/general/app-nav-mobile.tsx
 #: apps/remix/app/components/general/document/document-status.tsx
 msgid "Inbox"
-msgstr "Inbox"
+msgstr "受信箱"
 
 #: apps/remix/app/components/general/app-command-menu.tsx
 msgid "Inbox documents"
-msgstr "Inbox documents"
+msgstr "受信箱の書類"
 
 #: apps/remix/app/components/forms/document-preferences-form.tsx
 msgid "Include the Audit Logs in the Document"
@@ -4167,7 +4167,7 @@ msgstr "Include the Signing Certificate in the Document"
 #: apps/remix/app/components/general/template/template-page-view-information.tsx
 #: apps/remix/app/components/general/document/document-page-view-information.tsx
 msgid "Information"
-msgstr "Information"
+msgstr "情報"
 
 #: packages/ui/components/recipient/recipient-action-auth-select.tsx
 msgid "Inherit authentication method"
@@ -4595,12 +4595,12 @@ msgstr "マネージャー以上"
 
 #: apps/remix/app/components/general/document-signing/document-signing-complete-dialog.tsx
 msgid "Mark as viewed"
-msgstr "閲覧済みにする"
+msgstr "閲覧済にする"
 
 #: apps/remix/app/components/general/document-signing/document-signing-complete-dialog.tsx
 #: apps/remix/app/components/general/document-signing/document-signing-complete-dialog.tsx
 msgid "Mark as Viewed"
-msgstr "閲覧済みにする"
+msgstr "閲覧済にする"
 
 #: apps/remix/app/routes/_authenticated+/admin+/stats.tsx
 msgid "MAU (created document)"
@@ -5719,7 +5719,7 @@ msgstr "登録成功"
 #: apps/remix/app/components/general/document-signing/document-signing-reject-dialog.tsx
 #: packages/email/template-components/template-document-invite.tsx
 msgid "Reject Document"
-msgstr "署名を拒否"
+msgstr "拒否"
 
 #: apps/remix/app/routes/_internal+/[__htmltopdf]+/certificate.tsx
 #: apps/remix/app/components/general/stack-avatars-with-tooltip.tsx
@@ -5728,7 +5728,7 @@ msgstr "署名を拒否"
 #: apps/remix/app/components/embed/multisign/multi-sign-document-list.tsx
 #: packages/lib/constants/document.ts
 msgid "Rejected"
-msgstr "拒否済み"
+msgstr "拒否済"
 
 #: packages/email/template-components/template-document-rejection-confirmed.tsx
 msgid "Rejection Confirmed"
@@ -6142,7 +6142,7 @@ msgstr "トリガーを選択"
 
 #: apps/remix/app/components/dialogs/folder-update-dialog.tsx
 msgid "Select visibility"
-msgstr "可視性を選択"
+msgstr "閲覧権限を選択"
 
 #: packages/ui/primitives/document-flow/send-document-action-dialog.tsx
 #: packages/ui/primitives/document-flow/send-document-action-dialog.tsx
@@ -6232,7 +6232,7 @@ msgstr "送信中..."
 #: apps/remix/app/routes/_internal+/[__htmltopdf]+/certificate.tsx
 #: apps/remix/app/components/general/document/document-page-view-recipients.tsx
 msgid "Sent"
-msgstr "送信済み"
+msgstr "送信"
 
 #: apps/remix/app/routes/_authenticated+/settings+/security.sessions.tsx
 msgid "Session revoked"
@@ -6444,7 +6444,7 @@ msgstr "署名済み"
 #: apps/remix/app/components/general/document/document-page-view-recipients.tsx
 #: packages/ui/components/document/document-read-only-fields.tsx
 msgid "Signed"
-msgstr "署名済み"
+msgstr "署名"
 
 #: packages/lib/constants/recipient-roles.ts
 msgctxt "Recipient role name"
@@ -6453,7 +6453,7 @@ msgstr "署名者"
 
 #: apps/remix/app/routes/_internal+/[__htmltopdf]+/certificate.tsx
 msgid "Signer Events"
-msgstr "署名者イベント"
+msgstr "イベント"
 
 #: packages/lib/constants/recipient-roles.ts
 msgctxt "Recipient role plural name"
@@ -6471,11 +6471,11 @@ msgstr "署名中"
 
 #: apps/remix/app/routes/_internal+/[__htmltopdf]+/certificate.tsx
 msgid "Signing Certificate"
-msgstr "署名証明書"
+msgstr "署名監査証明書"
 
 #: apps/remix/app/routes/_internal+/[__htmltopdf]+/certificate.tsx
 msgid "Signing certificate provided by"
-msgstr "署名証明書提供者"
+msgstr "監査技術提供"
 
 #: packages/lib/server-only/document/send-completed-email.ts
 #: packages/lib/server-only/document/send-completed-email.ts
@@ -7687,7 +7687,7 @@ msgstr "確認するため、理由を入力してください"
 
 #: apps/remix/app/components/forms/2fa/enable-authenticator-app-dialog.tsx
 msgid "To enable two-factor authentication, scan the following QR code using your authenticator app."
-msgstr "二因子認証を有効にするには、認証アプリで以下のQRコードをスキャンしてください。"
+msgstr "二段階認証を有効にするには、認証アプリで以下のQRコードをスキャンしてください。"
 
 #: apps/remix/app/routes/_unauthenticated+/unverified-account.tsx
 msgid "To gain access to your account, please confirm your email address by clicking on the confirmation link from your inbox."
@@ -7780,31 +7780,31 @@ msgstr "トリガー"
 
 #: apps/remix/app/routes/_authenticated+/settings+/security._index.tsx
 msgid "Two factor authentication"
-msgstr "二因子認証"
+msgstr "二段階認証"
 
 #: apps/remix/app/routes/_authenticated+/settings+/security._index.tsx
 msgid "Two factor authentication recovery codes are used to access your account in the event that you lose access to your authenticator app."
-msgstr "二因子認証のリカバリコードは、認証アプリにアクセスできなくなった場合にアカウントにアクセスするために使用されます。"
+msgstr "二段階認証のリカバリコードは、認証アプリにアクセスできなくなった場合にアカウントにアクセスするために使用されます。"
 
 #: apps/remix/app/components/forms/signin.tsx
 msgid "Two-Factor Authentication"
-msgstr "二因子認証"
+msgstr "二段階認証"
 
 #: apps/remix/app/components/forms/2fa/disable-authenticator-app-dialog.tsx
 msgid "Two-factor authentication disabled"
-msgstr "二因子認証を無効化しました"
+msgstr "二段階認証を無効化しました"
 
 #: apps/remix/app/components/forms/2fa/enable-authenticator-app-dialog.tsx
 msgid "Two-factor authentication enabled"
-msgstr "二因子認証を有効化しました"
+msgstr "二段階認証を有効化しました"
 
 #: apps/remix/app/components/forms/2fa/disable-authenticator-app-dialog.tsx
 msgid "Two-factor authentication has been disabled for your account. You will no longer be required to enter a code from your authenticator app when signing in."
-msgstr "あなたのアカウントで二因子認証が無効化されました。サインイン時に認証アプリのコードを入力する必要がなくなりました。"
+msgstr "あなたのアカウントで二段階認証が無効化されました。サインイン時に認証アプリのコードを入力する必要がなくなりました。"
 
 #: apps/remix/app/routes/_internal+/[__htmltopdf]+/certificate.tsx
 msgid "Two-Factor Re-Authentication"
-msgstr "二因子再認証"
+msgstr "二段階再認証"
 
 #: packages/lib/constants/document.ts
 msgctxt "Type signatute type"
@@ -7858,7 +7858,7 @@ msgstr "チームを削除できません"
 
 #: apps/remix/app/components/forms/2fa/disable-authenticator-app-dialog.tsx
 msgid "Unable to disable two-factor authentication"
-msgstr "二因子認証を無効化できません"
+msgstr "二段階認証を無効化できません"
 
 #: apps/remix/app/components/general/organisations/organisation-invitations.tsx
 msgid "Unable to join this organisation at this time."
@@ -7899,7 +7899,7 @@ msgstr "パスワードをリセットできません"
 #: apps/remix/app/components/forms/2fa/enable-authenticator-app-dialog.tsx
 #: apps/remix/app/components/forms/2fa/enable-authenticator-app-dialog.tsx
 msgid "Unable to setup two-factor authentication"
-msgstr "二因子認証を設定できません"
+msgstr "二段階認証を設定できません"
 
 #: apps/remix/app/components/forms/signin.tsx
 #: apps/remix/app/components/forms/signin.tsx
@@ -8390,7 +8390,7 @@ msgstr "閲覧済み"
 #: apps/remix/app/components/general/document/document-page-view-recipients.tsx
 #: apps/remix/app/components/embed/multisign/multi-sign-document-list.tsx
 msgid "Viewed"
-msgstr "閲覧済み"
+msgstr "閲覧"
 
 #: packages/lib/constants/recipient-roles.ts
 msgctxt "Recipient role name"
@@ -8409,7 +8409,7 @@ msgstr "閲覧中"
 
 #: apps/remix/app/components/dialogs/folder-update-dialog.tsx
 msgid "Visibility"
-msgstr "可視性"
+msgstr "閲覧権限"
 
 #: apps/remix/app/components/general/stack-avatars-with-tooltip.tsx
 msgid "Waiting"
