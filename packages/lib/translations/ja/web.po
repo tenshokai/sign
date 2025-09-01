@@ -155,7 +155,7 @@ msgstr "{1}行中{0}行選択中。"
 #. placeholder {2}: document.title
 #: packages/lib/server-only/document/resend-document.ts
 msgid "{0} on behalf of \"{1}\" has invited you to {recipientActionVerb} the document \"{2}\"."
-msgstr "{0}が\"{1}\"を代理して、文書\"{2}\"を{recipientActionVerb}するよう招待しました。"
+msgstr "{0}が{1}を代理して、{2}の{recipientActionVerb}を依頼しています。"
 
 #. placeholder {0}: recipients.length
 #: apps/remix/app/routes/_authenticated+/t.$teamUrl+/documents.$id._index.tsx
@@ -366,11 +366,11 @@ msgstr "{signerName}が文書\"{documentName}\"を拒否しました。"
 #. placeholder {0}: _(actionVerb).toLowerCase()
 #: packages/email/template-components/template-document-invite.tsx
 msgid "{teamName} has invited you to {0}<0/>\"{documentName}\""
-msgstr "{teamName}があなたを{0}<0/>\"{documentName}\"に招待しました"
+msgstr "{teamName}が{documentName}への{0}<0/>を依頼しています"
 
 #: packages/email/templates/document-invite.tsx
 msgid "{teamName} has invited you to {action} {documentName}"
-msgstr "{teamName}があなたを{documentName}を{action}するよう招待しました"
+msgstr "{teamName}が{documentName}への{action}を依頼しています"
 
 #: apps/remix/app/components/tables/internal-audit-log-table.tsx
 msgid "{userAgent}"
@@ -2141,7 +2141,7 @@ msgstr "署名した文書はダウンロードできます"
 
 #: packages/email/template-components/template-document-invite.tsx
 msgid "Continue by signing the document."
-msgstr "文書に署名してください。"
+msgstr "文書を確認して署名してください"
 
 #: packages/email/template-components/template-document-invite.tsx
 msgid "Continue by viewing the document."
@@ -5750,15 +5750,15 @@ msgstr "リマインダー：{0}"
 #. placeholder {0}: document.team.name
 #: packages/lib/server-only/document/resend-document.ts
 msgid "Reminder: {0} invited you to {recipientActionVerb} a document"
-msgstr "リマインダー：{0}が文書を{recipientActionVerb}するよう招待しています"
+msgstr "リマインダー:{0}が文書の{recipientActionVerb}を依頼しています"
 
 #: packages/lib/server-only/document/resend-document.ts
 msgid "Reminder: Please {recipientActionVerb} this document"
-msgstr "リマインダー：この文書を{recipientActionVerb}してください"
+msgstr "リマインダー:この文書を{recipientActionVerb}してください"
 
 #: packages/lib/server-only/document/resend-document.ts
 msgid "Reminder: Please {recipientActionVerb} your document"
-msgstr "リマインダー：文書を{recipientActionVerb}してください"
+msgstr "リマインダー:文書を{recipientActionVerb}してください"
 
 #: apps/remix/app/routes/_authenticated+/o.$orgUrl.settings.email-domains.$id.tsx
 #: apps/remix/app/components/tables/team-members-table.tsx
