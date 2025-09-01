@@ -37,7 +37,7 @@ msgstr ""{documentName}" が署名されました"
 
 #: packages/email/template-components/template-document-completed.tsx
 msgid "“{documentName}” was signed by all signers"
-msgstr ""{documentName}" がすべての署名者により署名されました"
+msgstr "{documentName}の署名が完了しました"
 
 #: apps/remix/app/components/dialogs/document-delete-dialog.tsx
 msgid "\"{documentTitle}\" has been successfully deleted"
@@ -190,15 +190,15 @@ msgstr "{inviterName}が文書<0/>\"{documentName}\"をキャンセルしまし�
 #. placeholder {0}: _(actionVerb).toLowerCase()
 #: packages/email/template-components/template-document-invite.tsx
 msgid "{inviterName} has invited you to {0}<0/>\"{documentName}\""
-msgstr "{inviterName}があなたを{0}<0/>\"{documentName}\"に招待しました"
+msgstr "{inviterName}が{documentName}に{0}<0/>するよう依頼しています"
 
 #: packages/email/templates/document-invite.tsx
 msgid "{inviterName} has invited you to {action} {documentName}"
-msgstr "{inviterName}があなたを{documentName}を{action}するよう招待しました"
+msgstr "{inviterName}が{documentName}に{action}するよう依頼しています"
 
 #: packages/email/templates/document-invite.tsx
 msgid "{inviterName} has invited you to {action} the document \"{documentName}\"."
-msgstr "{inviterName}があなたを文書\"{documentName}\"を{action}するよう招待しました。"
+msgstr "{inviterName}が{documentName}\に{action}するよう依頼しています"
 
 #: packages/email/templates/recipient-removed-from-document.tsx
 msgid "{inviterName} has removed you from the document {documentName}."
@@ -2901,7 +2901,7 @@ msgstr "完了"
 
 #: apps/remix/app/components/general/document/document-status.tsx
 msgid "Document completed"
-msgstr "文書完了"
+msgstr "完了"
 
 #: packages/ui/components/document/document-email-checkboxes.tsx
 #: packages/ui/components/document/document-email-checkboxes.tsx
@@ -9254,7 +9254,7 @@ msgstr "今後サインイン時に認証アプリからのコード入力が必
 
 #: apps/remix/app/routes/_recipient+/sign.$token+/complete.tsx
 msgid "You will receive an Email copy of the signed document once everyone has signed."
-msgstr "全員の署名が完了したら、署名済み文書のメールコピーを受信します。"
+msgstr "全員の署名が完了したら、署名済"
 
 #: apps/remix/app/components/dialogs/account-delete-dialog.tsx
 msgid "Your account has been deleted successfully."
