@@ -481,7 +481,7 @@ msgstr "<0>アップロード</0> - ファイルからアップロードされ�
 
 #: apps/remix/app/components/general/document-signing/document-signing-complete-dialog.tsx
 msgid "<0>You are about to complete approving <1>\"{documentTitle}\"</1>.</0><2/> Are you sure?"
-msgstr "<0><1>\"{documentTitle}\"の承認を完了しようとしています</1>。</0><2/> よろしいですか?"
+msgstr "<0><1>\"{documentTitle}\"を承認しようとしています</1>。</0><2/> よろしいですか?"
 
 #: apps/remix/app/components/general/document-signing/document-signing-complete-dialog.tsx
 msgid "<0>You are about to complete signing \"<1>{documentTitle}</1>\".</0><2/> Are you sure?"
@@ -1690,7 +1690,7 @@ msgstr "一般社団法人(いだてんクリニック）が提供する電子�
 
 #: apps/remix/app/components/general/document-signing/document-signing-disclosure.tsx
 msgid "By proceeding with your electronic signature, you acknowledge and consent that it will be used to sign the given document and holds the same legal validity as a handwritten signature. By completing the electronic signing process, you affirm your understanding and acceptance of these conditions."
-msgstr "電子署名を進めることで、自身がこの文書に署名する法的地位があることを宣誓するとともに、手書き署名と同じ法的有効性を持つことを確認し、同意します。記入した入力は、私が知り信じる限り、真実であり正確です。この文書の署名は自身の意思によって行われ、質問する機会が与えられたことを確認しました。"
+msgstr "電子署名を進めることで、自身がこの文書に署名する法的地位があることを宣誓するとともに、手書き署名と同じ法的有効性を持つことを確認し、同意します。記入した内容は、私が知り信じる限り、真実であり正確です。この文書の署名は自身の意思によって行われ、質問する機会が与えられたことを確認しました。"
 
 #: apps/remix/app/components/forms/signup.tsx
 msgid "By proceeding, you agree to our <0>Terms of Service</0> and <1>Privacy Policy</1>."
@@ -2001,7 +2001,7 @@ msgstr "完了した文書"
 
 #: apps/remix/app/components/general/document/document-certificate-qr-view.tsx
 msgid "Completed on {formattedDate}"
-msgstr "{formattedDate}に完了"
+msgstr "完了日時：{formattedDate}"
 
 #. placeholder {0}: parseMessageDescriptor(_, FRIENDLY_FIELD_TYPE[currentField.type])
 #: apps/remix/app/components/embed/authoring/field-advanced-settings-drawer.tsx
@@ -3075,7 +3075,7 @@ msgstr "文書送信済み"
 
 #: apps/remix/app/routes/_recipient+/sign.$token+/complete.tsx
 msgid "Document Signed"
-msgstr "文書署名済み"
+msgstr "署名が完了しました"
 
 #: packages/lib/utils/document-audit-logs.ts
 msgctxt "Audit log format"
@@ -3985,19 +3985,19 @@ msgstr "グループ"
 
 #: apps/remix/app/components/general/document-signing/document-signing-page-view.tsx
 msgid "has invited you to approve this document"
-msgstr "この文書の承認を依頼しました"
+msgstr "がこの文書の承認を依頼しました"
 
 #: apps/remix/app/components/general/document-signing/document-signing-page-view.tsx
 msgid "has invited you to assist this document"
-msgstr "この文書の支援を依頼しました"
+msgstr "がこの文書の支援を依頼しました"
 
 #: apps/remix/app/components/general/document-signing/document-signing-page-view.tsx
 msgid "has invited you to sign this document"
-msgstr "この文書の署名を依頼しました"
+msgstr "がこの文書の署名を依頼しました"
 
 #: apps/remix/app/components/general/document-signing/document-signing-page-view.tsx
 msgid "has invited you to view this document"
-msgstr "この文書の閲覧を依頼しました"
+msgstr "がこの文書の閲覧を依頼しました"
 
 #: packages/ui/primitives/template-flow/add-template-placeholder-recipients.tsx
 #: packages/ui/primitives/template-flow/add-template-placeholder-recipients.tsx
@@ -5176,12 +5176,12 @@ msgstr "所有者"
 #. placeholder {1}: table.getPageCount() || 1
 #: packages/ui/primitives/data-table-pagination.tsx
 msgid "Page {0} of {1}"
-msgstr "{1}ページ中{0}ページ"
+msgstr "{1}ページ中 {0}ページ"
 
 #. placeholder {0}: i + 1
 #: packages/ui/primitives/pdf-viewer.tsx
 msgid "Page {0} of {numPages}"
-msgstr "{numPages}ページ中{0}ページ"
+msgstr "{numPages}ページ中 {0}ページ"
 
 #: apps/remix/app/components/general/document-signing/document-signing-auth-dialog.tsx
 #: apps/remix/app/components/forms/signin.tsx
@@ -5669,7 +5669,7 @@ msgstr "受信者が更新されました"
 #: apps/remix/app/components/general/document/document-page-view-recipients.tsx
 #: apps/remix/app/components/embed/authoring/configure-document-recipients.tsx
 msgid "Recipients"
-msgstr "受信者"
+msgstr "人の受信者"
 
 #: apps/remix/app/routes/_authenticated+/admin+/stats.tsx
 msgid "Recipients metrics"
