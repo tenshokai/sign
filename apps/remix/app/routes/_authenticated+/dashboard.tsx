@@ -12,7 +12,6 @@ import { formatAvatarUrl } from '@documenso/lib/utils/avatars';
 import { canExecuteOrganisationAction } from '@documenso/lib/utils/organisations';
 import { canExecuteTeamAction } from '@documenso/lib/utils/teams';
 import { Avatar, AvatarFallback, AvatarImage } from '@documenso/ui/primitives/avatar';
-import { Button } from '@documenso/ui/primitives/button';
 import { Card, CardContent } from '@documenso/ui/primitives/card';
 import { ScrollArea, ScrollBar } from '@documenso/ui/primitives/scroll-area';
 
@@ -74,11 +73,7 @@ export default function DashboardPage() {
               </p>
             </div>
 
-            <Button asChild className="mt-4" variant="outline">
-              <Link to="/settings/organisations?action=add-organisation">
-                <Trans>Create organisation</Trans>
-              </Link>
-            </Button>
+            {/* Hidden: Organisation creation disabled in this deployment */}
           </div>
         )}
 
