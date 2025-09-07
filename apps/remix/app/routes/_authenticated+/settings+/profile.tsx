@@ -7,7 +7,6 @@ import { isPersonalLayout } from '@documenso/lib/utils/organisations';
 import { trpc } from '@documenso/trpc/react';
 import { AnimateGenericFadeInOut } from '@documenso/ui/components/animate/animate-generic-fade-in-out';
 
-import { AccountDeleteDialog } from '~/components/dialogs/account-delete-dialog';
 import { AvatarImageForm } from '~/components/forms/avatar-image';
 import { ProfileForm } from '~/components/forms/profile';
 import { SettingsHeader } from '~/components/general/settings-header';
@@ -47,7 +46,7 @@ export default function SettingsProfile() {
           )}
         </AnimatePresence>
 
-        <AccountDeleteDialog />
+        {/* Account deletion disabled in this deployment */}
       </div>
     </div>
   );
